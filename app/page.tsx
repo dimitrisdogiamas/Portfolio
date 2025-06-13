@@ -1,14 +1,23 @@
-import Image from "next/image";
-import Hero from "@/components/hero/Hero";
+import { Hero } from './components/hero/hero'
+import { About } from './components/about/about'
+import { Skills } from './components/skills/Skills'
+import { Projects } from './components/Projects/Projects'
+import { Contact } from './components/Contact/Contact'
+import { Navigation } from './components/Navigation'
+import { DarkModeToggle } from './components/DarkModeToggle'
+
 export default function Home() {
   return (
-    <main>
-           <Hero />
-      {/* Future sections will go here */}
-      {/* <About />
-          <Projects />
-          <Skills />
-          <Contact /> */}
-    </main>
-  );
+    <>
+      <Navigation />
+      <DarkModeToggle />
+      <div className="flex flex-col">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </div>
+    </>
+  )
 }
