@@ -17,7 +17,7 @@ export function Projects() {
       description: "A modern, responsive portfolio showcasing projects and skills with dark mode support, smooth animations, and optimized performance.",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
       image: "/api/placeholder/400/250",
-      liveUrl: "#",
+      liveUrl: "https://portfolio-seven-liart-70.vercel.app/",
       githubUrl: "https://github.com/dimitrisdogiamas/Portfolio",
       isFeatured: true,
       category: "Frontend",
