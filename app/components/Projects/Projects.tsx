@@ -7,7 +7,7 @@ export function Projects() {
       description: "A full-featured e-commerce platform with modern UI/UX, authentication, RESTful API, Stripe payment integration, inventory management, and admin panel.",
       technologies: ["NestJS", "Prisma ORM", "MySQL", "TypeScript", "JWT", "Stripe"],
       image: "/images/nextbuy.png",
-      liveUrl: "https://nextbuy-psi.vercel.app/",
+      liveUrl: "https://e-com-peach-mu.vercel.app/",
       githubUrl: "https://github.com/dimitrisdogiamas/E-com",
       isFeatured: true,
       category: "Full Stack",
