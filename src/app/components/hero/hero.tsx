@@ -2,30 +2,30 @@
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center px-4 bg-gradient-to-br from-black via-gray-900 to-gray-800 relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center px-4 bg-black relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-white/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
       </div>
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
             Hi, I&apos;m Dimitrios Dogiamas
           </h1>
-          <div className="h-1 w-32 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto rounded-full mb-8"></div>
+          <div className="h-1 w-32 bg-white/40 mx-auto rounded-full mb-8"></div>
         </div>
         
-        <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-          A passionate <span className="text-blue-400 font-semibold">Full-Stack Developer</span> crafting beautiful and functional digital experiences with modern technologies.
+        <p className="text-xl md:text-2xl text-neutral-400 mb-12 leading-relaxed max-w-3xl mx-auto">
+          A passionate <span className="text-white font-semibold">Full-Stack Developer</span> crafting beautiful and functional digital experiences with modern technologies.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
             href="#projects"
-            className="group px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-xl hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-medium"
+            className="group px-8 py-4 bg-white text-black rounded-xl hover:bg-neutral-200 transition-all duration-300 shadow-[0_0_40px_rgba(255,255,255,0.15)] hover:shadow-[0_0_60px_rgba(255,255,255,0.25)] transform hover:-translate-y-1 font-medium"
           >
             <span className="flex items-center gap-2">
               View My Work
@@ -36,7 +36,7 @@ export function Hero() {
           </a>
           <a
             href="#contact"
-            className="group px-8 py-4 border-2 border-blue-400 text-blue-400 rounded-xl hover:bg-blue-600 hover:text-white hover:border-blue-600 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 font-medium"
+            className="group px-8 py-4 border-2 border-white text-white rounded-xl hover:bg-white hover:text-black transition-all duration-300 shadow-[0_0_30px_rgba(255,255,255,0.08)] hover:shadow-[0_0_50px_rgba(255,255,255,0.2)] transform hover:-translate-y-1 font-medium"
           >
             <span className="flex items-center gap-2">
               Contact Me
